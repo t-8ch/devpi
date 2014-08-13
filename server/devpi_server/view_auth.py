@@ -24,6 +24,7 @@ class RootFactory(object):
         acl = []
         acl.extend([
             (Allow, 'root', 'user_delete'),
+            (Allow, 'root', 'user_create'),
             (Allow, 'root', 'user_modify'),
             (Allow, 'root', 'index_create'),
             (Allow, 'root', 'index_modify'),
